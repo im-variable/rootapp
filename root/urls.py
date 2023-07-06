@@ -39,5 +39,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('feeds/', include('feed.urls')), 
     #  swagger ui
-    url(r'^/$', schema_view.with_ui('swagger', cache_timeout=0), name='swagger-ui'),
+    # url(r'^/$', schema_view.with_ui('swagger', cache_timeout=0), name='swagger-ui'),
 ]
